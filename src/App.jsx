@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react';
-
-import './App.css';
 import Skeleton from 'react-loading-skeleton';
 import ProductCard from './ProductCard';
 
@@ -24,9 +22,6 @@ function App() {
       <p className='dark font-normal max-w-[715px] mx-auto mt-5 '>
         There are many things are needed to start the Fast Food Business. You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage Customers,
       </p>
-
-
-
       <div className="grid grid-cols-3 gap-[30px] mt-20">
         {data.length
           ? data.map((el) => (
